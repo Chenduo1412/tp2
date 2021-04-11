@@ -27,7 +27,7 @@ title: About Us
 
 <img src="images/daiweinus.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/daiweinus.md)]
+[[github](http://github.com/daiweinus)]
 [[portfolio](team/daiweinus.md)]
 
 * Role: Developer

@@ -1,5 +1,5 @@
-title: "HRMS"
-theme: jekyll-theme-hacker
+title: "Employee Tracker"
+theme: minima
 
 header_pages:
   - UserGuide.md

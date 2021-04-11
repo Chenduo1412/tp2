@@ -1,0 +1,15 @@
+@startuml
+start
+:User executes sort command;
+if (Is valid sort command foramt) then ([YES])
+    if (Is valid parameters : n, s, j, b) then ([YES])
+        :Sort employee records;
+        :Shows "MESSAGE_SORT_EMPLOYEE_SUCCESS";
+    else ([NO])
+        :Shows "MESSAGE_INVALID_COMMAND_FORMAT" + "MESSAGE_USAGE";
+    endif
+else ([NO])
+    :Shows "MESSAGE_UNKNOWN_COMMAND";
+endif
+stop
+@enduml

@@ -1,0 +1,21 @@
+{
+  "employees": [ {
+    "name": "Valid Employee",
+    "role": "Developer",
+    "phone": "9482424",
+    "email": "hans@example.com",
+    "address": "4th street",
+    "dateOfBirth": "1988-01-17",
+    "dateOfJoining": "2020-01-05",
+    "salary": "5000"
+  }, {
+    "name": "Employee With Invalid Phone Field",
+    "role": "Developer",
+    "phone": "948asdf2424",
+    "email": "hans@example.com",
+    "address": "4th street",
+    "dateOfBirth": "1988-01-17",
+    "dateOfJoining": "2020-01-05",
+    "salary": "5000"
+  } ]
+}

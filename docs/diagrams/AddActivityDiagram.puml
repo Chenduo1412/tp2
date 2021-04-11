@@ -1,0 +1,15 @@
+@startuml
+start
+:User executes add command;
+if () then ([Valid add command format])
+    if () then ([Employee with same name and date of birth does not exist in model])
+        :Adds employee to model;
+        :Displays information of newly-added employee;
+    else ([Else])
+        :Displays "Duplicated Employee" error message;
+    endif
+else ([Else])
+    :Displays "Invalid Command" error message;
+endif
+stop
+@enduml

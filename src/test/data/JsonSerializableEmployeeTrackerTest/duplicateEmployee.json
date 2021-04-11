@@ -1,0 +1,22 @@
+{
+  "employees": [ {
+    "name": "Alice Pauline",
+    "role": "Finance Manager",
+    "phone": "94351253",
+    "email": "alice@example.com",
+    "address": "123, Jurong West Ave 6, #08-111",
+    "dateOfBirth": "1988-09-14",
+    "dateOfJoining": "2020-02-01",
+    "salary": "6000",
+    "tagged": [ "friends" ]
+  }, {
+    "name": "Alice Pauline",
+    "role": "Finance Manager",
+    "phone": "94351253",
+    "email": "pauline@example.com",
+    "address": "4th street",
+    "dateOfBirth": "1988-09-14",
+    "salary": "6000",
+    "dateOfJoining": "2020-02-01"
+  } ]
+}
